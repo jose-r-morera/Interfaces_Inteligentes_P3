@@ -26,4 +26,17 @@ Ahora, debido a que la esfera tiene fricción (que establecemos con el ajuste ``
 Vemos que, al no ser física, la esfera no sufre la gravedad, por lo que se queda quieta. Que sea trigger no afecta a nada.
 9. **El plano es un objeto físico. El cubo es un objeto físico y la esfera es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.**
 ![Situacion9](img/9.gif)
-Vemos que, al ser físicca, la esfera sí sufre la gravedad, al igual que el resto de objetos de la escena. Por tanto, no se puede percibir la diferencia de que sea trigger respecto a cuando no lo es (Caso 4).
+Vemos que, al ser física, la esfera sí sufre la gravedad, al igual que el resto de objetos de la escena. Por tanto, no se puede percibir la diferencia de que sea trigger respecto a cuando no lo es (Caso 4).
+
+## Hoja 2 - Movimiento - Físicas
+1.  
+![Ejercicio1](img/Hoja2/2_1.gif)
+2.  
+![Ejercicio2](img/Hoja2/2_2.png)
+En la sección de project settings se abre el InputManager y se cambia la tecla asignada a h.  
+3.  
+![Ejercicio3](img/Hoja2/2_3.gif)
+ - a  ![Ejercicio3](img/Hoja2/2_3a.gif)
+ - b  ![Ejercicio3](img/Hoja2/2_3b.gif)
+ - c  ![Ejercicio3](img/Hoja2/2_3c.gif)
+ - d  ![Ejercicio3](img/Hoja2/2_3d.gif)
