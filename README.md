@@ -48,3 +48,12 @@ Observamos que la velocidad ahora es menor
 En este caso no se observa gran diferencia.
  - e  ![Ejercicio3](img/Hoja2/2_3e.gif)
 Como el sistema de coordenadas local estaba alineado con el global, no se ve diferencia.
+
+4.  
+![Ejercicio3](img/Hoja2/2_4.gif)
+Nota: Se ha optado por usar un script para el cubo y otro para la esfera. Se detecta cada tecla y en cada caso se realiza el transalte con el vector adecuado (Vector3.left, Vector3.forward...). Las velocidades se han fijado en 0.1 para el cubo y 0.2 para la esfera.
+
+5. 
+![Ejercicio3](img/Hoja2/2_5.gif)
+En el translate se multiplica el vector además de por la velocidad, por el Time.deltaTime. En este caso las velocidades se aumentan a 2 para la esfera y 1 para el cubo.
+
