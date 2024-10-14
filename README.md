@@ -36,7 +36,15 @@ Vemos que, al ser física, la esfera sí sufre la gravedad, al igual que el rest
 En la sección de project settings se abre el InputManager y se cambia la tecla asignada a h.  
 3.  
 ![Ejercicio3](img/Hoja2/2_3.gif)
+Nota: se ha usado el Time.deltaTime para el desplazamiento.
  - a  ![Ejercicio3](img/Hoja2/2_3a.gif)
- - b  ![Ejercicio3](img/Hoja2/2_3b.gif)
+  Observamos que el cubo se desplaza al doble de velocidad.
+ - b
+![Ejercicio3](img/Hoja2/2_3b.gif)
+Al igual que en el caso a, observamos que el cubo se desplaza al doble de velocidad.
  - c  ![Ejercicio3](img/Hoja2/2_3c.gif)
+Observamos que la velocidad ahora es menor
  - d  ![Ejercicio3](img/Hoja2/2_3d.gif)
+En este caso no se observa gran diferencia.
+ - e  ![Ejercicio3](img/Hoja2/2_3e.gif)
+Como el sistema de coordenadas local estaba alineado con el global, no se ve diferencia.
