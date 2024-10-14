@@ -65,3 +65,7 @@ Se obtiene el vector de la dirección de movimiento restando posición destino (
 ![Ejercicio7](img/Hoja2/2_7.gif)
 Se emplea el método lookAt para que el cubo mire al tranform de la esfera. Es necesario que el translate empleado en el ejercicio 6 sea relativo al espacio del mundo, ya que ahora el tranform local del cubo no está alineado con el del mundo.
 
+8. 
+![Ejercicio8](img/Hoja2/2_8.gif)
+Se usa el vector transform.forward con el translate referente al sistema del mundo (en vez del local) para el avence delante-atrás con las teclas w-s. El giro se realiza con la función rotate, sobre el eje Vector3.up. Se fija una velocidad distinta para el movimiento hacia delante y otra para el giro.
+
