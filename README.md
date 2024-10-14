@@ -59,5 +59,5 @@ En el translate se multiplica el vector además de por la velocidad, por el Time
 
 6. 
 ![Ejercicio6](img/Hoja2/2_6.gif)
-Se obtiene el vector de la dirección de movimiento restando posición destino (cubo) menos origen (esfera). El vector resultante se normaliza y multiplica por velocidad y deltaTime.
+Se obtiene el vector de la dirección de movimiento restando posición destino (esfera) menos origen (cubo). El vector resultante se normaliza y multiplica por velocidad y deltaTime.
 
