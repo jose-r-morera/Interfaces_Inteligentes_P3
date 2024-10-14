@@ -61,3 +61,7 @@ En el translate se multiplica el vector además de por la velocidad, por el Time
 ![Ejercicio6](img/Hoja2/2_6.gif)
 Se obtiene el vector de la dirección de movimiento restando posición destino (esfera) menos origen (cubo). El vector resultante se normaliza y multiplica por velocidad y deltaTime.
 
+7. 
+![Ejercicio7](img/Hoja2/2_7.gif)
+Se emplea el método lookAt para que el cubo mire al tranform de la esfera. Es necesario que el translate empleado en el ejercicio 6 sea relativo al espacio del mundo, ya que ahora el tranform local del cubo no está alineado con el del mundo.
+
