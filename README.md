@@ -73,3 +73,14 @@ Se usa el vector transform.forward con el translate referente al sistema del mun
 ![Ejercicio9](img/Hoja2/2_9.gif)
 Se eligen el cubo y la esfera como los trigger, ya que son objetos que no usan de por sí el sistema de físicas, y así se evitan errores. Se usa el evento OnCollisionEnter para detectar la colisión, este script está en el cilindro.
 
+10.
+![Ejercicio10](img/Hoja2/2_10.gif)
+La esfera no puede ser física y trigger, por lo que se desactiva el trigger de la esfera y el cubo y se emplea el método OnCollisionEnter. Se sigue detectando la colisión en el cilindro.
+
+11.
+![Ejercicio11](img/Hoja2/2_11.gif)
+El cilindro no puede ser trigger y físico, ya que se caería. Se hace el cilindro cinemático y se siguen detectando las colisiones con él. Como el cubo es cinemático debe ser trigge. Se emplea el método OnCollisionEnter para poder detectar las colisiones entre 2 objetos cinemáticos.
+
+
+ 12.
+![Ejercicio12](img/Hoja2/2_12.gif)
