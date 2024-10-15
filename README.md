@@ -91,5 +91,7 @@ Respecto a las diatintas configuraciones:
 - Esfera física con masa 10 veces mayor que el cilindro: le cuesta más acelerar, y al impactar con el cilindro tiene más fuerza.
 
 - Esfera física con masa 10 veces menor que el cilindro: caso contrario al anterior; acelera con mayor facilidad, aunque ahora el impacto con el cilindro tiene mucha menos fuerza.
-- 
- cinemática y trigger. También prueba la configuración del cilindro de forma que su fricción se duplique o no
+- Esfera cinemática y trigger: al ser trigger atraviesa el cilindro.
+
+- Cilindro con fricción duplicada: cuesta más moverlo. Además, al parar, frena en seco.
+- Cilindro con la mitad de fricción: se mueve más fácilmente. Pasa un pequeño tiempo deslizándose.
