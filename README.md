@@ -69,3 +69,7 @@ Se emplea el método lookAt para que el cubo mire al tranform de la esfera. Es n
 ![Ejercicio8](img/Hoja2/2_8.gif)
 Se usa el vector transform.forward con el translate referente al sistema del mundo (en vez del local) para el avence delante-atrás con las teclas w-s. El giro se realiza con la función rotate, sobre el eje Vector3.up. Se fija una velocidad distinta para el movimiento hacia delante y otra para el giro.
 
+9. 
+![Ejercicio9](img/Hoja2/2_9.gif)
+El cilindro no puede ser físico y trigger, ya que atravesaría el plano. Por tanto, el cubo y la esfera son los trigger. Se usa el evento OnCollisionEnter para detectar la colisión.
+
