@@ -79,7 +79,7 @@ La esfera no puede ser física y trigger, por lo que se desactiva el trigger de 
 
 11.
 ![Ejercicio11](img/Hoja2/2_11.gif)
-El cilindro no puede ser trigger y físico, ya que se caería. Se hace el cilindro cinemático y se siguen detectando las colisiones con él. Como el cubo es cinemático debe ser trigge. Se emplea el método OnCollisionEnter para poder detectar las colisiones entre 2 objetos cinemáticos.
+El cilindro no puede ser trigger y físico, ya que se caería. Se hace el cilindro cinemático y se siguen detectando las colisiones con él. Como el cubo es cinemático debe ser trigger. Se emplea el método OnTriggerEnter para poder detectar las colisiones entre 2 objetos cinemáticos.
 
 
  12.
