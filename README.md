@@ -84,3 +84,12 @@ El cilindro no puede ser trigger y físico, ya que se caería. Se hace el cilind
 
  12.
 ![Ejercicio12](img/Hoja2/2_12.gif)
+Se muestra la configuración base. El movimiento se realiza en 2 ejes con métodos AddForce y las teclas u-j eje vertical h-k eje horizontal. Se emplea el método movePosition para que el cilindro persiga la esfera.
+
+Respecto a las diatintas configuraciones:
+
+- Esfera física con masa 10 veces mayor que el cilindro: le cuesta más acelerar, y al impactar con el cilindro tiene más fuerza.
+
+- Esfera física con masa 10 veces menor que el cilindro: caso contrario al anterior; acelera con mayor facilidad, aunque ahora el impacto con el cilindro tiene mucha menos fuerza.
+- 
+ cinemática y trigger. También prueba la configuración del cilindro de forma que su fricción se duplique o no
