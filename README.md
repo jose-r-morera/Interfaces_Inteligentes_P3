@@ -71,5 +71,5 @@ Se usa el vector transform.forward con el translate referente al sistema del mun
 
 9. 
 ![Ejercicio9](img/Hoja2/2_9.gif)
-El cilindro no puede ser físico y trigger, ya que atravesaría el plano. Por tanto, el cubo y la esfera son los trigger. Se usa el evento OnCollisionEnter para detectar la colisión, este script está en el cilindro.
+Se eligen el cubo y la esfera como los trigger, ya que son objetos que no usan de por sí el sistema de físicas, y así se evitan errores. Se usa el evento OnCollisionEnter para detectar la colisión, este script está en el cilindro.
 
