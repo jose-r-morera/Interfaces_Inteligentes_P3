@@ -84,7 +84,7 @@ El cilindro no puede ser trigger y físico, ya que se caería. Se hace el cilind
 
  12.
 ![Ejercicio12](img/Hoja2/2_12.gif)
-Se muestra la configuración base. El movimiento se realiza en 2 ejes con métodos AddForce y las teclas u-j eje vertical h-k eje horizontal. Se emplea el método movePosition para que el cilindro persiga la esfera.
+Se muestra la configuración base. El movimiento se realiza en 2 ejes con métodos AddForce y las teclas u-j eje vertical h-k eje horizontal. Cabe desatacar que se bloquea la rotación en el rigidbody para que el cilindro no "se caiga". Se emplea el método movePosition para que el cilindro persiga la esfera.
 
 Respecto a las diatintas configuraciones:
 
