@@ -5,7 +5,8 @@ using UnityEngine;
 public class Ejercicio12 : MonoBehaviour
 {
     private GameObject esfera;    
-    public float speed = 5f;       
+    public float follow_speed = 5f;
+    public float move_speed = 30f;
 
     private Rigidbody rb;
 
@@ -23,21 +24,28 @@ public class Ejercicio12 : MonoBehaviour
     // Physics movement
     void FixedUpdate()
     {
-        float step = speed * Time.fixedDeltaTime;
+        float follow_step = follow_speed * Time.fixedDeltaTime;
+        float move_step = move_speed * Time.fixedDeltaTime;
         
-        Vector3 newPosition = Vector3.MoveTowards(transform.position, esfera.transform.position, step);
+        Vector3 newPosition = Vector3.MoveTowards(transform.position, esfera.transform.position, follow_step);
         rb.MovePosition(newPosition);
 
-        if (Input.GetKey(KeyCode.U)) {
-            transform.Translate(Vector3.forward * step);
-        } else if (Input.GetKey(KeyCode.J)) {
-            transform.Translate(Vector3.back * step);
-        } 
-        
-        if (Input.GetKey(KeyCode.H)) {
-            transform.Translate(Vector3.left * step);
-        } else if (Input.GetKey(KeyCode.K)) {
-            transform.Translate(Vector3.right * step);
+        if (Input.GetKey(KeyCode.U))
+        {
+            rb.AddForce(Vector3.forward * move_step);
+        }
+        else if (Input.GetKey(KeyCode.J))
+        {
+            rb.AddForce(Vector3.back * move_step);
+        }
+
+        if (Input.GetKey(KeyCode.H))
+        {
+            rb.AddForce(Vector3.left * move_step);
+        }
+        else if (Input.GetKey(KeyCode.K))
+        {
+            rb.AddForce(Vector3.right * move_step);
         }
     }
 }
