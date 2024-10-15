@@ -6,7 +6,7 @@ Observamos que el cubo se mantiene quieto ya que aunque se le aplica la física,
 2. **El plano no es un objeto físico. El cubo es un objeto físico y la esfera también. En este caso, el plano sólo tendrán collider, mientras que el cubo y la esfera deben tener Rigidbody.**
 ![Situacion2](img/2.gif)
 Ahora vemos que la gravedad afecta a la esfera, que cae chocando con el cubo y el plano ya que tienen collider. El plano no se cae ya que no se le aplica la física.
-3.**El plano no es un objeto físico. El cubo es un objeto físico y la esfera es cinemática. En este caso, el plano sólo tendrán collider, mientras que el cubo y la esfera deben tener Rigidbody esta última cinemático.**
+3. **El plano no es un objeto físico. El cubo es un objeto físico y la esfera es cinemática. En este caso, el plano sólo tendrán collider, mientras que el cubo y la esfera deben tener Rigidbody esta última cinemático.**
 ![Situacion3](img/3.gif)
 Observamos que pese a que la esfera tiene rigidbody al ser cinemática no se le aplica la física y por tanto se queda quieta sin sufrir gravedad.
 4. **El plano es un objeto físico. El cubo es un objeto físico y la esfera es física. En este caso, todos los objetos deben tener Rigidbody.**
